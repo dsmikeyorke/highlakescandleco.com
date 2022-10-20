@@ -1,0 +1,29 @@
+html {
+  min-height: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  margin-top: -88px;
+  padding: 40px;
+}
+
+.links {
+  display: flex;
+  gap: 16px;
+}
